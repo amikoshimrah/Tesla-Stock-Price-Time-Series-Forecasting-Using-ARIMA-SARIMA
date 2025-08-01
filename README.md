@@ -10,18 +10,27 @@ Data preprocessing from CSV (TSLA stock data)
 Time series visualization and trend analysis
 
 Rolling mean and standard deviation plots
+
 Seasonal decomposition of time series
+
 ARIMA/SARIMA model fitting and future forecasting
+
 Clear and informative plots to visualize insights
 
 📁 Dataset
+
 The project uses historical TSLA stock data (TSLA.csv) with daily records of closing prices.
 
-🛠️ Requirements
+🛠️ Requirements:
+
 Python 3.x
+
 pandas
+
 matplotlib
+
 seaborn
+
 statsmodels
 
 
