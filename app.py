@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Tesla Forecasting", layout="wide")
 
 # GitHub raw CSV URL (replace with your own if needed)
-https://github.com/amikoshimrah/Tesla-Stock-Price-Time-Series-Forecasting-Using-ARIMA-SARIMA/blob/main/TSLA.csv
+CSV_URL = "https://raw.githubusercontent.com/amikoshimrah/Tesla-Stock-Price-Time-Series-Forecasting-Using-ARIMA-SARIMA/main/TSLA.csv"
+
 
 # Load historical data from GitHub
 @st.cache_data
