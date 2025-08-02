@@ -12,9 +12,9 @@ st.set_page_config(page_title="Tesla Forecasting", layout="wide")
 @st.cache_resource
 def load_models():
     with open("arima_model_tsa.pkl", "rb") as f_arima:
-        arima_model = pickle.load(f_arima)
+        arima_model,last_date = pickle.load(f_arima)
     with open("sarima_model_tsa.pkl", "rb") as f_sarima:
-        sarima_model = pickle.load(f_sarima)
+        sarima_model, last_date = pickle.load(f_sarima)
     return {"ARIMA": arima_model, "SARIMA": sarima_model}
 
 models = load_models()
